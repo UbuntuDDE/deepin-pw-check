@@ -3,39 +3,49 @@ Section: devel
 Priority: optional
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Build-Depends:
- debhelper (>= 9),
- libcrack2-dev,
- libpam-dev,
- libiniparser-dev,
- golang-go,
- golang-dlib-dev (>> 1.8.0+),
- golang-dbus-dev,
- golang-github-linuxdeepin-go-dbus-factory-dev,
  cracklib-runtime,
+ debhelper-compat (=13),
  deepin-gettext-tools,
-Standards-Version: 4.1.4
+ golang-dbus-dev,
+ golang-dlib-dev (>> 1.8.0+),
+ golang-github-linuxdeepin-go-dbus-factory-dev,
+ golang-github-stretchr-testify-dev,
+ golang-go,
+ libcrack2-dev,
+ libiniparser-dev,
+ libpam-dev,
+Standards-Version: 4.5.1
 Homepage: http://www.deepin.org
 
 Package: deepin-pw-check
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends},
+Depends:
  policykit-1,
+ ${misc:Depends},
+ ${shlibs:Depends},
 Description: deepin password check interface
  deepin-pw-check is a tool to verify the validity of the password
 
 Package: libdeepin-pw-check
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends},
+Depends:
  cracklib-runtime,
  libcrack2,
  libiniparser1,
-Breaks: libpam-cracklib
-Replaces: libpam-cracklib
+ ${misc:Depends},
+ ${shlibs:Depends},
+Breaks:
+ libpam-cracklib,
+Replaces:
+ libpam-cracklib,
 Description: deepin password check interface
  deepin-pw-check is a tool to verify the validity of the password
 
 Package: libdeepin-pw-check-dev
 Architecture: any
-Depends: libdeepin-pw-check, ${misc:Depends}, ${shlibs:Depends},
+Depends:
+ libdeepin-pw-check,
+ ${misc:Depends},
+ ${shlibs:Depends},
 Description: deepin password check interface
  deepin-pw-check is a tool to verify the validity of the password
