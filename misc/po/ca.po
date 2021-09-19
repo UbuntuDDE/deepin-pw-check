@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Davidmp <medipas@gmail.com>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-11 15:30+0800\n"
+"PO-Revision-Date: 2021-03-03 05:18+0000\n"
+"Last-Translator: Davidmp <medipas@gmail.com>, 2021\n"
+"Language-Team: Catalan (https://www.transifex.com/linuxdeepin/teams/3617/ca/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/deepin_pw_check.c:545
+msgid "Invalid error type"
+msgstr "Tipus d'error no vàlid"
+
+#: lib/deepin_pw_check.c:555
+msgid "Checking successful"
+msgstr "Comprovació correcta"
+
+#: lib/deepin_pw_check.c:557
+msgid "The password cannot be empty"
+msgstr "La contrasenya no es pot deixar en blanc."
+
+#: lib/deepin_pw_check.c:561
+#, c-format
+msgid "Password must have at least %d characters"
+msgstr "La contrasenya ha de tenir com a mínim %d caràcters."
+
+#: lib/deepin_pw_check.c:566
+#, c-format
+msgid "Password must be no more than %d characters"
+msgstr "La contrasenya no ha de tenir més de %d caràcters."
+
+#: lib/deepin_pw_check.c:570
+#, c-format
+msgid "Password can only contain %s"
+msgstr "La contrasenya només pot tenir %s."
+
+#: lib/deepin_pw_check.c:577
+#, c-format
+msgid "Password must not contain more than %d palindrome characters"
+msgstr "La contrasenya no ha de tenir més de %d caràcters palíndroms."
+
+#: lib/deepin_pw_check.c:581 lib/deepin_pw_check.c:583
+#: lib/deepin_pw_check.c:585
+msgid "Create a strong password please"
+msgstr "Si us plau, creeu una contrasenya forta."
+
+#: lib/deepin_pw_check.c:587
+msgid "Do not use common words and combinations as password"
+msgstr "No useu paraules i combinacions habituals com a contrasenya."
+
+#: lib/deepin_pw_check.c:589
+msgid "Parameter options are invalid"
+msgstr "Les opcions dels paràmetres no són vàlides."
+
+#: lib/deepin_pw_check.c:591
+msgid "Internal error"
+msgstr "Error intern"
+
+#: lib/deepin_pw_check.c:593
+msgid "Invalid user"
+msgstr "Usuari no vàlid"
+
+#: lib/deepin_pw_check.c:595
+msgid "It does not meet password rules"
+msgstr "No compleix les regles de la contrasenya."
+
+#: pam/pam.c:107
+#, c-format
+msgid "Bad password: %s"
+msgstr ""

@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Marcin Kozioł <koziol.martin@gmail.com>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-11 15:30+0800\n"
+"PO-Revision-Date: 2021-03-03 05:18+0000\n"
+"Last-Translator: Marcin Kozioł <koziol.martin@gmail.com>, 2021\n"
+"Language-Team: Polish (https://www.transifex.com/linuxdeepin/teams/3617/pl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+
+#: lib/deepin_pw_check.c:545
+msgid "Invalid error type"
+msgstr "Nieprawidłowy typ błędu"
+
+#: lib/deepin_pw_check.c:555
+msgid "Checking successful"
+msgstr "Sprawdzanie powiodło się"
+
+#: lib/deepin_pw_check.c:557
+msgid "The password cannot be empty"
+msgstr "Hasło nie może być puste"
+
+#: lib/deepin_pw_check.c:561
+#, c-format
+msgid "Password must have at least %d characters"
+msgstr "Hasło musi mieć co najmniej %d znaków"
+
+#: lib/deepin_pw_check.c:566
+#, c-format
+msgid "Password must be no more than %d characters"
+msgstr "Hasło nie może zawierać więcej niż %d znaków"
+
+#: lib/deepin_pw_check.c:570
+#, c-format
+msgid "Password can only contain %s"
+msgstr "Hasło może zawierać tylko %s"
+
+#: lib/deepin_pw_check.c:577
+#, c-format
+msgid "Password must not contain more than %d palindrome characters"
+msgstr "Hasło nie może zawierać więcej niż %d znaków palindromowych "
+
+#: lib/deepin_pw_check.c:581 lib/deepin_pw_check.c:583
+#: lib/deepin_pw_check.c:585
+msgid "Create a strong password please"
+msgstr ""
+
+#: lib/deepin_pw_check.c:587
+msgid "Do not use common words and combinations as password"
+msgstr "Nie używaj popularnych słów i kombinacji jako hasła"
+
+#: lib/deepin_pw_check.c:589
+msgid "Parameter options are invalid"
+msgstr "Opcje parametrów są nieprawidłowe"
+
+#: lib/deepin_pw_check.c:591
+msgid "Internal error"
+msgstr "Błąd wewnętrzny"
+
+#: lib/deepin_pw_check.c:593
+msgid "Invalid user"
+msgstr "Nieprawidłowy użytkownik"
+
+#: lib/deepin_pw_check.c:595
+msgid "It does not meet password rules"
+msgstr "Nie spełnia zasad dotyczących haseł"
+
+#: pam/pam.c:107
+#, c-format
+msgid "Bad password: %s"
+msgstr ""

@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-11 15:30+0800\n"
+"PO-Revision-Date: 2021-03-03 05:18+0000\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>, 2021\n"
+"Language-Team: Portuguese (https://www.transifex.com/linuxdeepin/teams/3617/pt/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/deepin_pw_check.c:545
+msgid "Invalid error type"
+msgstr "Tipo de erro inválido"
+
+#: lib/deepin_pw_check.c:555
+msgid "Checking successful"
+msgstr "Verificação bem sucedida"
+
+#: lib/deepin_pw_check.c:557
+msgid "The password cannot be empty"
+msgstr "A palavra-passe não pode estar em branco"
+
+#: lib/deepin_pw_check.c:561
+#, c-format
+msgid "Password must have at least %d characters"
+msgstr "A palavra-passe deve ter pelo menos %d caracteres"
+
+#: lib/deepin_pw_check.c:566
+#, c-format
+msgid "Password must be no more than %d characters"
+msgstr "A palavra-passe não deve ter mais do que %d caracteres"
+
+#: lib/deepin_pw_check.c:570
+#, c-format
+msgid "Password can only contain %s"
+msgstr "A palavra-passe apenas pode conter %s"
+
+#: lib/deepin_pw_check.c:577
+#, c-format
+msgid "Password must not contain more than %d palindrome characters"
+msgstr "A palavra-passe não deve conter mais de %d caracteres palíndromo"
+
+#: lib/deepin_pw_check.c:581 lib/deepin_pw_check.c:583
+#: lib/deepin_pw_check.c:585
+msgid "Create a strong password please"
+msgstr "Crie uma palavra-passe forte, por favor"
+
+#: lib/deepin_pw_check.c:587
+msgid "Do not use common words and combinations as password"
+msgstr "Não utilizar palavras e combinações comuns como palavra-passe"
+
+#: lib/deepin_pw_check.c:589
+msgid "Parameter options are invalid"
+msgstr "As opções de parâmetros são inválidas"
+
+#: lib/deepin_pw_check.c:591
+msgid "Internal error"
+msgstr "Erro interno"
+
+#: lib/deepin_pw_check.c:593
+msgid "Invalid user"
+msgstr "Utilizador inválido"
+
+#: lib/deepin_pw_check.c:595
+msgid "It does not meet password rules"
+msgstr "Não cumpre as regras de palavra-passe"
+
+#: pam/pam.c:107
+#, c-format
+msgid "Bad password: %s"
+msgstr ""

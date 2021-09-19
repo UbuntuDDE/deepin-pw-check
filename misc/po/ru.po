@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Владимир Киреев <vovan_kireev@mail.ru>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-11 15:30+0800\n"
+"PO-Revision-Date: 2021-03-03 05:18+0000\n"
+"Last-Translator: Владимир Киреев <vovan_kireev@mail.ru>, 2021\n"
+"Language-Team: Russian (https://www.transifex.com/linuxdeepin/teams/3617/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: lib/deepin_pw_check.c:545
+msgid "Invalid error type"
+msgstr ""
+
+#: lib/deepin_pw_check.c:555
+msgid "Checking successful"
+msgstr "Проверка прошла успешно"
+
+#: lib/deepin_pw_check.c:557
+msgid "The password cannot be empty"
+msgstr "Пароль не может быть пустым"
+
+#: lib/deepin_pw_check.c:561
+#, c-format
+msgid "Password must have at least %d characters"
+msgstr "Пароль должен содержать не менее %d символов"
+
+#: lib/deepin_pw_check.c:566
+#, c-format
+msgid "Password must be no more than %d characters"
+msgstr "Пароль должен быть не более %d символов"
+
+#: lib/deepin_pw_check.c:570
+#, c-format
+msgid "Password can only contain %s"
+msgstr "Пароль может содержать только %s"
+
+#: lib/deepin_pw_check.c:577
+#, c-format
+msgid "Password must not contain more than %d palindrome characters"
+msgstr "Пароль не должен содержать более %d палиндромных символов"
+
+#: lib/deepin_pw_check.c:581 lib/deepin_pw_check.c:583
+#: lib/deepin_pw_check.c:585
+msgid "Create a strong password please"
+msgstr "Пожалуйста, создайте надежный пароль"
+
+#: lib/deepin_pw_check.c:587
+msgid "Do not use common words and combinations as password"
+msgstr "Не используйте общие слова и комбинации в качестве пароля"
+
+#: lib/deepin_pw_check.c:589
+msgid "Parameter options are invalid"
+msgstr "Параметры опций недопустимы"
+
+#: lib/deepin_pw_check.c:591
+msgid "Internal error"
+msgstr "Внутренняя ошибка"
+
+#: lib/deepin_pw_check.c:593
+msgid "Invalid user"
+msgstr "Неверный пользователь"
+
+#: lib/deepin_pw_check.c:595
+msgid "It does not meet password rules"
+msgstr "Не соответствует правилам паролей"
+
+#: pam/pam.c:107
+#, c-format
+msgid "Bad password: %s"
+msgstr ""
